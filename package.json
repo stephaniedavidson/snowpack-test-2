@@ -1,0 +1,26 @@
+{
+  "name": "snowpack-test-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephaniedavidson/snowpack-test-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephaniedavidson/snowpack-test-2/issues"
+  },
+  "homepage": "https://github.com/stephaniedavidson/snowpack-test-2#readme",
+  "description": "",
+  "dependencies": {
+    "snowpack": "^3.0.13"
+  }
+}
