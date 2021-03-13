@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     '@snowpack/plugin-sass',
+    '@marlonmarcello/snowpack-plugin-pug'
   ],
   packageOptions: {
     /* ... */
