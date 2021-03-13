@@ -19,4 +19,9 @@ module.exports = {
   buildOptions: {
     out: "public"
   },
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2018',
+  },
 };
