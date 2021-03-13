@@ -1,0 +1,61 @@
+{
+  "inputs": {
+    "001/style.css": {
+      "bytes": 72,
+      "imports": []
+    },
+    "index.css": {
+      "bytes": 71,
+      "imports": []
+    },
+    "helloworld.js": {
+      "bytes": 69,
+      "imports": []
+    },
+    "index.js": {
+      "bytes": 269,
+      "imports": [
+        {
+          "path": "helloworld.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/001/style.css": {
+      "imports": [],
+      "entryPoint": "001/style.css",
+      "inputs": {
+        "001/style.css": {
+          "bytesInOutput": 52
+        }
+      },
+      "bytes": 53
+    },
+    "../~~bundle~~/index.css": {
+      "imports": [],
+      "entryPoint": "index.css",
+      "inputs": {
+        "index.css": {
+          "bytesInOutput": 52
+        }
+      },
+      "bytes": 53
+    },
+    "../~~bundle~~/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "index.js",
+      "inputs": {
+        "helloworld.js": {
+          "bytesInOutput": 41
+        },
+        "index.js": {
+          "bytesInOutput": 160
+        }
+      },
+      "bytes": 202
+    }
+  }
+}
